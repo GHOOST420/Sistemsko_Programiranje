@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "2dIEqNYGGLE=",
+  "success": true,
+  "projectFilePath": "C:\\faks\\sistemsko programiranje\\SYSPROG3\\SYSPROG3.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jana\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512",
+    "C:\\Users\\Jana\\.nuget\\packages\\system.reactive\\6.1.0\\system.reactive.6.1.0.nupkg.sha512",
+    "C:\\Users\\Jana\\.nuget\\packages\\system.reactive.linq\\6.1.0\\system.reactive.linq.6.1.0.nupkg.sha512",
+    "C:\\Users\\Jana\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

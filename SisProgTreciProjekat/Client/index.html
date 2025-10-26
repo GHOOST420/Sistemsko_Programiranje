@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Rx Server</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌤️ Weather Rx Server</h1>
+            <p>Reaktivna aplikacija za praćenje vremenske prognoze</p>
+        </header>
+
+        <main>
+            <section class="search-section">
+                <h2>Pretraga po gradu</h2>
+                <form id="weatherForm">
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            id="cityInput" 
+                            placeholder="Unesite grad (npr. Belgrade)" 
+                            required 
+                        />
+                        <input 
+                            type="number" 
+                            id="daysInput" 
+                            placeholder="Broj dana" 
+                            value="7" 
+                            min="1" 
+                            max="16" 
+                        />
+                        <button type="submit">Pretraži</button>
+                    </div>
+                </form>
+            </section>
+
+            <section class="stats-section">
+                <h2>Statistika servera</h2>
+                <button id="statsButton" class="secondary-btn">Prikaži statistiku</button>
+            </section>
+
+            <div id="loadingSpinner" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Učitavanje...</p>
+            </div>
+
+            <div id="errorMessage" class="error-message hidden"></div>
+
+            <div id="weatherResults" class="results hidden"></div>
+
+            <div id="statsResults" class="results hidden"></div>
+        </main>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
